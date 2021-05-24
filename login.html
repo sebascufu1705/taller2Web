@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__icons">
+                <img src="./imgs/burger.svg" alt="" class="header__burger">
+                <div class="header__imgs">
+                    
+                    <img src="./imgs/fav-icon.svg" alt="">
+                    <a href="./cart.html" class="link">
+                      <img src="./imgs/shop-icon.svg" alt="">
+                      </a>
+                </div>
+    
+            </div>
+            <div class="header__info">
+              <p class="header__logo"><a href="./store.html" class="link">Aqua</a></p>
+                <div class="header__search">
+                <input class="" type="text" placeholder="Buscar productos ">
+                <img src="./imgs/search-icon.svg" alt="search-icon" style="height: 16px;">
+                </div>
+                
+            </div>
+        </div>
+        <div class="menu">
+       
+          <a href="" class="menu__text link">Marcas</a>
+          <a href="" class="menu__text link">Colección</a>
+          <a href="" class="menu__text link">Hombre</a>
+          <a href="" class="menu__text link">Mujer</a>
+          <a href="" class="menu__text link">Tienda</a>
+          <a href=""class="menu__text link">Descuentos</a>
+    
+  </div>
+  <div class="burguer hidden" >
+
+      <a href="" class="burguer__text link">Marcas</a>
+      <a href="" class="burguer__text link">Colección</a>
+      <a href="" class="burguer__text link">Hombre</a>
+      <a href="" class="burguer__text link">Mujer</a>
+      <a href=""class="burguer__text link">Tienda</a>
+      <a href=""class="burguer__text link">Descuentos</a>
+
+  </div>
+    
+    </header>
+
+
+    <form class="form login">
+      <h2 class="form__title">Iniciar sesión</h2>
+  
+      <label class="form__label">
+        Correo
+        <input required type="email" name="email" />
+      </label>
+  
+      <label class="form__label">
+        Contraseña
+        <input required type="password" name="password" />
+      </label>
+  
+      <p class="form__error hidden">
+        Información inválida.
+      </p>
+  
+      <button type="submit" class="btn">
+        Iniciar
+      </button>
+  
+      <p>¿No tienes una cuenta? <a href="register.html" class="link" style="color: #C2933A;"> Registrate</a></p>
+    </form>
+      <footer>
+        <section class="footer">
+    
+       <div class="footer__about">
+           <p class="footer__about__text">Acerca de</p>
+           <p class="footer__about__text">Preguntas frecuentes</p>
+           <p class="footer__about__text">Política de privacidad</p>
+       </div>
+       <div class="footer__info">
+           <p class="footer__info__text">Aqua</p>
+           <p class="footer__info__text">Colombia  </p>
+    
+       </div>
+    </section>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="./scripts/firebase.js"></script>
+    <script src="./scripts/login.js"></script>
+</body>
+</html>

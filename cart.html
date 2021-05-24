@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__icons">
+                <img src="./imgs/burger.svg" alt="" class="header__burger">
+                <div class="header__imgs">
+                    
+                    <img src="./imgs/fav-icon.svg" alt="">
+                    <a href="./cart.html" class="link">
+                        <img src="./imgs/shop-icon.svg" alt="">
+                        </a>
+                </div>
+    
+            </div>
+            <div class="header__info">
+                <p class="header__logo"><a href="./store.html" class="link">Aqua</a></p>
+                <div class="header__search">
+                <input class="" type="text" placeholder="Buscar productos ">
+                <img src="./imgs/search-icon.svg" alt="search-icon" style="height: 16px;">
+                </div>
+                
+            </div>
+        </div>
+        <div class="menu">
+       
+            <a href="" class="menu__text link">Marcas</a>
+            <a href="" class="menu__text link">Colección</a>
+            <a href="" class="menu__text link">Hombre</a>
+            <a href="" class="menu__text link">Mujer</a>
+            <a href="" class="menu__text link">Tienda</a>
+            <a href=""class="menu__text link">Descuentos</a>
+      
+    </div>
+    <div class="burguer hidden" >
+
+        <a href="" class="burguer__text link">Marcas</a>
+        <a href="" class="burguer__text link">Colección</a>
+        <a href="" class="burguer__text link">Hombre</a>
+        <a href="" class="burguer__text link">Mujer</a>
+        <a href=""class="burguer__text link">Tienda</a>
+        <a href=""class="burguer__text link">Descuentos</a>
+
+    </div>
+    
+    </header>
+    <a href="/store.html" class="link">
+        <section class="breadcrum">
+            <svg width="13" height="28" viewBox="0 0 13 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 1L3.13052 10.6086C1.36255 12.5239 1.36255 15.4761 3.13052 17.3914L12 27" stroke="white" stroke-width="2"/>
+                </svg>
+            <div class="breadcrum__text">
+                <p>Continuar comprando</p>
+            </div>
+        </section>
+    </a>
+    
+        <section class="title">
+            <h3>Compras</h3>
+        </section>
+
+    <section class="productsSection__cart">
+    </section>
+
+    <section class="sectionTotal">
+    <p class="sectionTotal__text">Total <span class="sectionTotal__total"> </span> </p>
+
+    <button class="sect__btn btn btn__total">
+        CONTINUAR
+      </button>
+
+      <p class="sectionTotal__thx">Gracias por tu compra</p>
+
+    </section>
+      <footer>
+        <section class="footer">
+    
+       <div class="footer__about">
+           <p class="footer__about__text">Acerca de</p>
+           <p class="footer__about__text">Preguntas frecuentes</p>
+           <p class="footer__about__text">Política de privacidad</p>
+       </div>
+       <div class="footer__info">
+           <p class="footer__info__text">Aqua</p>
+           <p class="footer__info__text">Colombia  </p>
+    
+       </div>
+    </section>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
+    <script src="./scripts/firebase.js"></script>
+    <script src="./scripts/cart.js"></script>
+</body>
+</html>

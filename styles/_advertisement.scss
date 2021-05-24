@@ -1,0 +1,51 @@
+.advertisement{
+
+    &__img{
+        background-image: url("../imgs/ad.png");
+        height: 624px;
+        background-size: cover;
+        background-position: center;
+        margin: 50px 70px;
+    }
+
+    &__text{
+        width: 40%;
+        font-size: large;
+        margin-left: 5%;
+    }
+
+    &__btn{
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 20%;
+        padding: 6px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+
+    .advertisement{
+    &__img{
+        background-image: url("../imgs/ad.png");
+        height: 166px;
+        background-size: cover;
+        background-position: center;
+        margin: 20px 10px;
+    }
+
+    &__text{
+        display: none;
+        width: 40%;
+        font-size: large;
+        margin-left: 5%;
+    }
+
+    &__btn{
+        margin-left: 40%;
+    }
+}
+
+}

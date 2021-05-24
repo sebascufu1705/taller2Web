@@ -1,0 +1,44 @@
+.promo{
+
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    &__left{
+        width: 100px;
+        height: 20px;
+        background-color: #f30000;
+    }
+    &__text{
+        font-size: 40px;
+        text-align: center;
+    }
+    &__rigth{
+        width: 100px;
+        height: 20px;
+        background-color: #FFFFFF;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .promo{
+
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        &__left{
+            width: 100px;
+            height: 20px;
+            background-color: #f30000;
+        }
+        &__text{
+            font-size: 15px;
+            text-align: center;
+        }
+        &__rigth{
+            width: 100px;
+            height: 20px;
+            background-color: #FFFFFF;
+        }
+
+}
+}

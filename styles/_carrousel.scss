@@ -1,0 +1,29 @@
+.carrousel{
+    //overflow: hidden;
+    margin: auto;
+    height: 600px;
+   // background-color: lawngreen;  
+    width: 90%;  
+
+    &__img{
+        width: 100%; 
+        height: 600px;
+    }
+}
+@media screen and (max-width: 500px){
+
+
+    .carrousel{
+        //overflow: hidden;
+        margin: auto;
+        height: 200px;
+       // background-color: lawngreen;  
+        width: 90%;  
+    
+        &__img{
+            width: 100%; 
+            height: 600px;
+        }
+    }
+
+}

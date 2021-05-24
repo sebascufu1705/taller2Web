@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<header>
+    <div class="header">
+        <div class="header__icons">
+            <img src="./imgs/burger.svg" alt="" class="header__burger">
+            <div class="header__imgs">
+                
+                <img src="./imgs/fav-icon.svg" alt="">
+                <a href="./cart.html" class="link">
+                  <img src="./imgs/shop-icon.svg" alt="">
+                  </a>
+            </div>
+
+        </div>
+        <div class="header__info">
+          
+            <p class="header__logo"><a href="./store.html" class="link">Aqua</a></p>
+          
+            <div class="header__search">
+            <input class="" type="text" placeholder="Buscar productos ">
+            <img src="./imgs/search-icon.svg" alt="search-icon" style="height: 16px;">
+            </div>
+            
+        </div>
+    </div>
+    <div class="auth">
+
+      <div class="auth__without hidden">
+        <a href="login.html" style="color: ghostwhite;" class="link">Iniciar sesión</a>
+        <a href="register.html" style="color: #C2933A;;" class="link">Registrarse</a>
+      </div>
+      <div class="auth__with hidden">
+        <a style="color: #C2933A;" href="/profile.html" class="auth__profile link">
+          <img src="" alt="">
+          <span></span>
+        </a>
+        <a class="showadmin hidden link" style="color: #6C0E23;" href="/admin.html">Administrador</a>
+        <br>
+        <a style="color: ghostwhite;" href="#" class="auth__signout link" >
+          Cerrar sesión
+        </a>
+        
+      </div>
+    </div>
+    <div class="menu">
+       
+            <a href="" class="menu__text link">Marcas</a>
+            <a href="" class="menu__text link">Colección</a>
+            <a href="" class="menu__text link">Hombre</a>
+            <a href="" class="menu__text link">Mujer</a>
+            <a href="" class="menu__text link">Tienda</a>
+            <a href=""class="menu__text link">Descuentos</a>
+      
+    </div>
+    <div class="burguer hidden" >
+
+        <a href="" class="burguer__text link">Marcas</a>
+        <a href="" class="burguer__text link">Colección</a>
+        <a href="" class="burguer__text link">Hombre</a>
+        <a href="" class="burguer__text link">Mujer</a>
+        <a href=""class="burguer__text link">Tienda</a>
+        <a href=""class="burguer__text link">Descuentos</a>
+
+    </div>
+
+</header>
+<body>
+   
+    <section class="banner__store">
+        <div class="banner__store__div">
+            <p class="banner__store__text">Time of Watches : Sale</p>
+        </div>
+         
+    </section>
+    <form class="filterformS">
+    <label class="ordenamientos">
+        <select name="order" class="ordenamientos__select">
+          <option class="ordenamientos__option" value="">ORDENAR</option>
+          <option class="ordenamientos__option" value="alfabeticA">Alfabético a - z</option>
+          <option class="ordenamientos__option" value="alfabeticZ">Alfabético z - a</option>
+          <option class="ordenamientos__option" value="price_asc">Precio, bajo a alto</option>
+          <option  class="ordenamientos__option" value="price_desc">Precio, alto a bajo</option>
+          
+        </select>
+      </label>
+    </form>
+    <article class="infoStore">
+           
+        
+    
+    <form class="filterform">
+
+    <div class="filterform__title"> 
+       <h4 class="filterform__text">GÉNERO</h4>
+       <img src="./imgs/down.svg" alt="" class="downBtn">
+    </div>
+       <div class="filterform_options hidden">
+      <label>
+        <input type="radio" name="genero" value="" checked >
+        Todos
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="genero" value="Masculino"  >
+        Hombre
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="genero" value="Femenino">
+       Mujer
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="genero" value="Unisex">
+       Unisex
+      </label>
+    </div>
+<!--
+    <div class="filterform__title"> 
+      <h4 class="filterform__text">COLOR</h4>
+      <img src="./imgs/down.svg" alt="" class="downBtn">
+      </div>
+      <div class="filterform_options hidden">
+      <label>
+        <input type="radio" name="conectivity" value="" checked>
+        Todos
+      </label>
+      <label>
+        <input type="radio" name="conectivity" value="Alámbrico">
+        Alámbrico
+      </label>
+      <label>
+        <br>
+        <input type="radio" name="conectivity" value="Inalámbrico">
+        Inalámbrico
+      </label>
+    </div>
+    -->
+     <div class="filterform__title"> 
+      <h4 class="filterform__text" >TIPO DE MOVIMIENTO</h4>
+      <img src="./imgs/down.svg" alt="" class="downBtn">
+      </div>
+      <div class="filterform_options hidden">
+      
+      <label>
+        <input type="radio" name="movimiento" value="" checked>
+        Todos
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="movimiento" value="Mecanico">
+        Automático
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="movimiento" value="Pila">
+        Digital
+      </label>
+      </div>
+
+      <div class="filterform__title"> 
+      <h4 class="filterform__text" >MATERIAL DE LA CORREA</h4>
+      <img src="./imgs/down.svg" alt="" class="downBtn">
+    </div>
+      <div class="filterform_options hidden">
+          
+        <label>
+          <input type="radio" name="material" value="" checked>
+          Todos
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="material" value="Plastico">
+          Plástico
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="material" value="Cuero">
+          Cuero
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="material" value="Metalico">
+          Metálico
+        </label>
+      </div>
+<!--
+      <div class="filterform__title"> 
+      <h4 class="filterform__text" >RESISTENCIA AL AGUA</h4>
+      <img src="./imgs/down.svg" alt="" class="downBtn">
+      </div>
+      <div class="filterform_options hidden">
+      <label>
+
+      </label>
+      </div>
+
+-->
+     </form>
+ 
+
+<!--Productos-->
+     <section class="productsSection">
+       <!--
+     <div class="sect__store">
+      <img src="./imgs/szanto.png" class="sect__img" alt="">
+      <p>Szanto Automatic Officers’ Series 6200</p>
+      <button class="sect__btn btn">Ver en la tienda</button>
+  </div>
+  <div class="sect__store">
+    <img src="./imgs/szanto.png" class="sect__img" alt="">
+    <p>Szanto Automatic Officers’ Series 6200</p>
+    <button class="sect__btn btn">Ver en la tienda</button>
+</div>
+     <div class="sect__store">
+      <img src="./imgs/szanto.png" class="sect__img" alt="">
+      <p>Szanto Automatic Officers’ Series 6200</p>
+      <button class="sect__btn btn">Ver en la tienda</button>
+  </div>
+  <div class="sect__store">
+    <img src="./imgs/szanto.png" class="sect__img" alt="">
+    <p>Szanto Automatic Officers’ Series 6200</p>
+    <button class="sect__btn btn">Ver en la tienda</button>
+</div>
+-->
+</section>
+    </article>
+
+    <form class="form hidden showadmin">
+      <h2 class="form__title">Nuevo producto</h2>
+  
+      <label class="form__label">
+        Título
+        <input name="title" type="text">
+      </label>
+  <!--
+      <label class="form__label">
+        Imagen
+        <input name="image" type="url">
+      </label>
+    -->
+      <label class="form__label">
+        Precio
+        <input name="price" type="number">
+      </label>
+
+      <label class="form__label">
+        Detalles
+        <input name="details" type="text">
+      </label>
+      <label class="form__label">
+        Género
+      <select name="genero" class="form__label">
+        <option value="">Selecciona</option> 
+        <option value="Masculino">Masculino</option> 
+        <option value="Femenino">Femenino</option>
+        <option value="Unisex">Unisex</option> 
+      </select>
+    </label>
+    <label class="form__label">
+      Material de la correa
+      <select name="material" class="form__label">
+        <option value="">Selecciona</option> 
+        <option value="Cuero">Cuero</option> 
+        <option value="Plastico">Plástico</option>
+        <option value="Metalico">Metálico</option>
+      </select>
+    </label>
+    <!--
+    <label class="form__label">
+      
+      Color
+      <select name="color" class="form__label">
+        <option value="">Selecciona</option> 
+        <option value="Blanco">Blanco</option> 
+        <option value="Negro">Negro</option>
+      </select>
+       
+    </label>
+    -->
+    <label class="form__label">
+      Tipo de movimiento
+      <select name="movimiento" class="form__label">
+        <option value="">Selecciona</option> 
+        <option value="Mecanico">Mecánico</option> 
+        <option value="Pila">Pila</option>
+      </select>
+
+    </label>
+      <input type="file" name="imageFile">
+
+  
+      <button>
+        Guardar
+      </button>
+      
+    </form>
+
+    <footer>
+      <section class="footer">
+  
+     <div class="footer__about">
+         <p class="footer__about__text">Acerca de</p>
+         <p class="footer__about__text">Preguntas frecuentes</p>
+         <p class="footer__about__text">Política de privacidad</p>
+     </div>
+     <div class="footer__info">
+         <p class="footer__info__text">Aqua</p>
+         <p class="footer__info__text">Colombia  </p>
+  
+     </div>
+  </section>
+  </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="./scripts/firebase.js"></script>
+    <script src="./scripts/store.js"></script>
+    <script src="./scripts/auth.js"></script>
+
+</body>
+</html>

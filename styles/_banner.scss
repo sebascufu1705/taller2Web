@@ -1,0 +1,67 @@
+.banner{
+    background-image: url("../imgs/banner.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 70px;
+
+
+
+
+
+
+    &__store{
+        background-image: url("../imgs/banner-store.png");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        margin: 50px 0px;
+
+        &__div{
+            position: absolute;
+            bottom: 10%;
+            left: 100px;
+            background-color: #C2933A;  
+            width: 400px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        &__text{
+            letter-spacing: 5px;
+            font-weight: bold;
+            font-weight: 24px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .banner{
+        margin: 40px 20px;
+        height: 166px;
+        &__store{
+            height: 166px;
+            margin: 10px 20px;
+        
+        &__div{
+            position: absolute;
+            bottom: 62%;
+            left: 35px;
+            background-color: #C2933A;  
+            width: 150px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        &__text{
+            letter-spacing: 1px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+    }
+    }
+    
+
+}

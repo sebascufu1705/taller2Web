@@ -1,0 +1,20 @@
+.burguer{
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2225;
+    width: 50%;
+    border: double;
+    border-color:white;
+    position: absolute;
+    z-index: 1;
+
+
+    &__text{
+ 
+        padding: 10px 20px;
+        
+
+    }
+}

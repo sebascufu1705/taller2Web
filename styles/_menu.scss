@@ -1,0 +1,21 @@
+.menu{
+    text-align: center;
+
+    &__text{
+        margin: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .menu{
+        display: none;
+        text-align: center;
+    
+        &__text{
+            margin: 10px 30px;
+        }
+    }
+
+}
+

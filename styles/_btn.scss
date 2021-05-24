@@ -1,0 +1,12 @@
+.btn{
+
+    background-color: $secondary-color;
+    color: white;
+    font-family: $font;
+    border: 0;
+
+    &__total{
+        margin:20px 0px;
+        padding: 10px;
+    }
+}
